@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Social Web Design</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="sidebar">
+        </div>
+        <div class="centerbar">
+            <div class="post">
+                <div class="posttextarea">
+                    <textarea id="postarea" placeholder="Put your ideas here"></textarea>
+                </div>
+                <div class="postfooter">
+                    <ul>
+                        <li><button><img src="../images/location.png"/></button></li>
+                        <li><button><img src="../images/music.png"/></button></li>
+                        <li><button><img src="../images/photo.png"/></button></li>
+                        <li><button><img src="../images/video.png"/></button></li>
+                        <li><button><img src="../images/smiley.png"/></button></li>
+                        <li><button id="send" onclick="fly_in_sky('send')"><img src="../images/send.png"/></button></li>
+                    </ul>
+                </div>
+                <div class="posts">
+                    <div class="postbyothers">
+                        <img id="post_img" src="../images/image1_web_template.png"/>
+                        <div class="postheader">
+                            <p>Sammy Johnson</p>
+                            <button id="like_btn1" onclick="toggleLike('like_btn1')" class=" likebtn unliked"></button>
+                        </div>
+                    </div>
+                    <div class="postbyothers">
+                        <img id="post_img" src="../images/image2_web_template.png"/>
+                        <div class="postheader">
+                            <p>Peter Moss</p>
+                            <button id="like_btn2" onclick="toggleLike('like_btn2')" class=" likebtn unliked"></button>
+                        </div>
+                    </div>
+                    <div class="postbyothers">
+                        <img id="post_img" src="../images/image3_web_template.jpg"/>
+                        <div class="postheader">
+                            <p>Peter Keth</p>
+                            <button id="like_btn3" onclick="toggleLike('like_btn3')" class=" likebtn unliked"></button>
+                        </div>
+                    </div>
+                    <div class="postbyothers">
+                        <img id="post_img" src="../images/image4_web_template.jpg"/>
+                        <div class="postheader">
+                            <p>Katy Sol</p>
+                            <button id="like_btn4" onclick="toggleLike('like_btn4')" class=" likebtn unliked"></button>
+                        </div>
+                    </div>
+                    <div class="postbyothers">
+                        <img id="post_img" src="../images/image5_web_template.jpg"/>
+                        <div class="postheader">
+                            <p>Juliana Smith</p>
+                            <button id="like_btn5" onclick="toggleLike('like_btn5')" class=" likebtn unliked"></button>
+                        </div>
+                    </div>
+                    <div class="postbyothers">
+                        <img id="post_img" src="../images/image6_web_template.jpg"/>
+                        <div class="postheader">
+                            <p>Mark Down</p>
+                            <button id="like_btn6" onclick="toggleLike('like_btn6')" class=" likebtn unliked"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightbar">
+        </div>
+    </div>
+    <div class="main_footer">
+        <h1>Created By: Nirakh Rastogi</h1>
+        <p>Contact Me: 8756094448 | Email ID-nir16r@gmail.com</p>
+    </div>
+    <nav>
+        <div class="nav_header"></div>
+        <div class="nav_body">
+            <div id="broad_info" class="show_in_display">
+                <h1>James Parker</h1>
+                <p>Work as a `Web Designer`</p>
+                <p>Lives at `Units 12 - 13 Zennor Trade Park, Zennor Road, London SW12 0PS, United Kingdom`</p>
+                <p>Contact me at `+44 20 86xx xxxx`</p>
+            </div>
+            <div id="mini_info" class="hide_in_display">
+                <p>James Parker/Web Designer</p>
+            </div>
+            <div class="pro_pic"></div>
+            <div class="btn_body">
+                <ul>
+                    <li><a href="#" id="home"><img src="../images/home.png"/></a></li>
+                    <li><a href="#" id="message"><img src="../images/message.png"/></a></li>
+                    <li><a href="#" id="friend_request"><img src="../images/friendrequest.png"/></a></li>
+                    <li><a href="#" id="myprofile"><img src="../images/profile.png"/></a></li>
+                    <li><a href="#" id="chat"><img src="../images/chat.png"/></a></li>
+                    <li><a href="#" id="settings"><img src="../images/settings.png"/></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>
+
