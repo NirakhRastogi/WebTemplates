@@ -8,6 +8,28 @@
 <body>
     <div class="container" id="container">
         <div class="sidebar">
+            <div class="sidemenu">
+                <button class="btnInsideMenu">GROUPS<div class="badge">(3)</div></button>
+                <button class="btnInsideMenu">PHOTOS<div class="badge">(30)</div></button>
+                <button class="btnInsideMenu">FRIEND REQUESTS<div class="badge">(20)</div></button>
+                <button class="btnInsideMenu">EVENTS<div class="badge">(7)</div></button>
+                <button class="btnInsideMenu">VIDEOS<div class="badge">(2)</div></button>
+                <button class="btnInsideMenu">PAGES<div class="badge">(17)</div></button>
+                <button class="btnInsideMenu">AUDIO<div class="badge">(15)</div></button>
+            </div>
+            <div class="sidemenu">
+                <button class="orangebtnInsideMenu">PHOTOS</button>
+                <div class="photos">
+                    <img src="../images/photo1.jpg"/>
+                    <img src="../images/photo2.jpg"/>
+                    <img src="../images/photo4.jpg"/>
+                    <img src="../images/photo5.jpg"/>
+                    <img src="../images/photo6.jpg"/>
+                    <img src="../images/photo1.jpg"/>
+                    <img src="../images/photo2.jpg"/>
+                    <img src="../images/photo4.jpg"/>
+                </div>
+            </div>
         </div>
         <div class="centerbar">
             <div class="post">
@@ -24,58 +46,64 @@
                         <li><button id="send" onclick="fly_in_sky('send')"><img src="../images/send.png"/></button></li>
                     </ul>
                 </div>
-                <div class="posts">
-                    <div class="postbyothers">
-                        <img id="post_img" src="../images/image1_web_template.png"/>
-                        <div class="postheader">
-                            <p>Sammy Johnson</p>
-                            <button id="like_btn1" onclick="toggleLike('like_btn1')" class=" likebtn unliked"></button>
-                        </div>
+            </div>
+            <div class="posts">
+                <div class="postbyothers">
+                    <img id="post_img" src="../images/image1_web_template.png"/>
+                    <div class="postheader">
+                        <p>Sammy Johnson</p>
+                        <button id="like_btn1" onclick="toggleLike('like_btn1')" class=" likebtn unliked"></button>
                     </div>
-                    <div class="postbyothers">
-                        <img id="post_img" src="../images/image2_web_template.png"/>
-                        <div class="postheader">
-                            <p>Peter Moss</p>
-                            <button id="like_btn2" onclick="toggleLike('like_btn2')" class=" likebtn unliked"></button>
-                        </div>
+                </div>
+                <div class="postbyothers">
+                    <img id="post_img" src="../images/image2_web_template.png"/>
+                    <div class="postheader">
+                        <p>Peter Moss</p>
+                        <button id="like_btn2" onclick="toggleLike('like_btn2')" class=" likebtn unliked"></button>
                     </div>
-                    <div class="postbyothers">
-                        <img id="post_img" src="../images/image3_web_template.jpg"/>
-                        <div class="postheader">
-                            <p>Peter Keth</p>
-                            <button id="like_btn3" onclick="toggleLike('like_btn3')" class=" likebtn unliked"></button>
-                        </div>
+                </div>
+                <div class="postbyothers">
+                    <img id="post_img" src="../images/image3_web_template.jpg"/>
+                    <div class="postheader">
+                        <p>Peter Keth</p>
+                        <button id="like_btn3" onclick="toggleLike('like_btn3')" class=" likebtn unliked"></button>
                     </div>
-                    <div class="postbyothers">
-                        <img id="post_img" src="../images/image4_web_template.jpg"/>
-                        <div class="postheader">
-                            <p>Katy Sol</p>
-                            <button id="like_btn4" onclick="toggleLike('like_btn4')" class=" likebtn unliked"></button>
-                        </div>
+                </div>
+                <div class="postbyothers">
+                    <img id="post_img" src="../images/image4_web_template.jpg"/>
+                    <div class="postheader">
+                        <p>Katy Sol</p>
+                        <button id="like_btn4" onclick="toggleLike('like_btn4')" class=" likebtn unliked"></button>
                     </div>
-                    <div class="postbyothers">
-                        <img id="post_img" src="../images/image5_web_template.jpg"/>
-                        <div class="postheader">
-                            <p>Juliana Smith</p>
-                            <button id="like_btn5" onclick="toggleLike('like_btn5')" class=" likebtn unliked"></button>
-                        </div>
+                </div>
+                <div class="postbyothers">
+                    <p id="posttext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="postheader">
+                        <p>Juliana Smith</p>
+                        <button id="like_btn5" onclick="toggleLike('like_btn5')" class=" likebtn unliked"></button>
                     </div>
-                    <div class="postbyothers">
-                        <img id="post_img" src="../images/image6_web_template.jpg"/>
-                        <div class="postheader">
-                            <p>Mark Down</p>
-                            <button id="like_btn6" onclick="toggleLike('like_btn6')" class=" likebtn unliked"></button>
-                        </div>
+                </div>
+                <div class="postbyothers">
+                    <img id="post_img" src="../images/image6_web_template.jpg"/>
+                    <div class="postheader">
+                        <p>Mark Down</p>
+                        <button id="like_btn6" onclick="toggleLike('like_btn6')" class=" likebtn unliked"></button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="rightbar">
+            <div class="sidemenu">
+                <button class="orangebtnInsideMenu">FRIEND REQUESTS<div class="badge">(1..7..20)</div></button>
+                <button class="orangebtnInsideMenu"><div class="badge"><img src="../images/male.png"/></div>JOHN PETER</button>
+                <button class="orangebtnInsideMenu"><div class="badge"><img src="../images/female.png"/></div>LINA GROSS</button>
+                <button class="orangebtnInsideMenu"><div class="badge"><img src="../images/male.png"/></div>PETER PATTINSON</button>
+                <button class="orangebtnInsideMenu"><div class="badge"><img src="../images/male.png"/></div>PETER PARKOR</button>
+                <button class="orangebtnInsideMenu"><div class="badge"><img src="../images/female.png"/></div>TRISHA LIAN</button>
+                <button class="orangebtnInsideMenu"><div class="badge"><img src="../images/male.png"/></div>RICHARD JOHNSON</button>
+                <button class="orangebtnInsideMenu"><div class="badge"><img src="../images/female.png"/></div>ALISA RITCHIE</button>
+            </div>
         </div>
-    </div>
-    <div class="main_footer">
-        <h1>Created By: Nirakh Rastogi</h1>
-        <p>Contact Me: 8756094448 | Email ID-nir16r@gmail.com</p>
     </div>
     <nav>
         <div class="nav_header"></div>

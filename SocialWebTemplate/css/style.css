@@ -145,7 +145,7 @@ nav>.nav_body>.btn_body>ul>li>a:hover>img{
     width: 250px;
     height: auto;
     position: absolute;
-    background-color: rgba(240,240,240,.5);
+    background-color:  rgba(240,240,240,.5);
 }
 .container>.centerbar{
     width: 800px;
@@ -160,6 +160,10 @@ nav>.nav_body>.btn_body>ul>li>a:hover>img{
     height: auto;
     position: absolute;
     left: 1050px;
+}
+
+.centerbar>.post{
+    box-shadow: 2px 2px 4px lightgray;
 }
 
 .centerbar>.post>.posttextarea>#postarea{
@@ -237,13 +241,15 @@ nav>.nav_body>.btn_body>ul>li>a:hover>img{
 }
 
 .posts{
-    box-shadow: 2px 2px 4px lightgray;
+    box-shadow: 4px 4px 4px darkgray;
     margin-top: 20px;
 }
 
 .postheader{
-    box-shadow: 2px 2px 4px lightgray;
+    box-shadow: 2px 2px 4px darkgray;
     padding: 20px;
+    background-color: rgba(220,220,220,.1);
+    border-top:1px solid lightgray;
     text-align: center;
 }
 
@@ -255,6 +261,13 @@ nav>.nav_body>.btn_body>ul>li>a:hover>img{
 
 .post>.postbyothers{
     margin-top: 20px;
+}
+
+#posttext{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    text-align: justify;
 }
 
 .likebtn{
@@ -287,22 +300,141 @@ nav>.nav_body>.btn_body>ul>li>a:hover>img{
     border: none;
 }
 
-.main_footer{
-    width: 100%;
-    height: 100px;
+.sidemenu{
+    box-shadow: 2px 2px 4px lightgray;
+    height: auto;
     position: relative;
-    padding-bottom: 15px;
-    left: 0px;
+    width: 100%;
     background-color: #22d2e3;
-    color: white;
-    text-align: center;
+    z-index: 0;
 }
 
-.main_footer>h1{
+.sidemenu>.btnInsideMenu{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background-color: #22d2e3;
+    color: rgba(255,255,255,.8);
+    font-size: 1em;
     font-weight: 100;
-    font-size: 30px;
+    border: none;
+    outline: none;
+    transition: 200ms ease-in-out all;
 }
-.main_footer>p{
+
+.sidemenu>.btnInsideMenu:hover{
+    background-color: white;
+    color: #22d2e3;
+}
+
+.sidemenu>.btnInsideMenu:active{
+    background-color: #22d2e3;
+    color: white;
+}
+
+.sidemenu>.btnInsideMenu:after{
+    content: '';
+    background-color: #22d2e3;
+    display: block;
+    width: 0%;
+    opacity: 0;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sidemenu>.btnInsideMenu:hover:after{
+    animation: blureffect 2s ease-in-out forwards;
+}
+
+@keyframes blureffect{
+    0%{
+        opacity: 0;
+        width: 0%;
+    }
+    100%{
+        opacity: .4;
+        width: 100%;
+    }
+}
+
+.sidemenu>.orangebtnInsideMenu{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background-color: tomato;
+    color: rgba(255,255,255,.8);
+    font-size: 1em;
     font-weight: 100;
-    font-size: 20px;
+    border: none;
+    outline: none;
+    transition: 200ms ease-in-out all;
+}
+
+.sidemenu>.orangebtnInsideMenu:hover{
+    background-color: white;
+    color: tomato;
+}
+
+.sidemenu>.orangebtnInsideMenu:active{
+    background-color: tomato;
+    color: white;
+}
+
+.sidemenu>.orangebtnInsideMenu:after{
+    content: '';
+    background-color: tomato;
+    display: block;
+    width: 0%;
+    opacity: 0;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sidemenu>.orangebtnInsideMenu:hover:after{
+    animation: blureffect 2s ease-in-out forwards;
+}
+
+.badge{
+    background-color: inherit;
+    position: relative;
+    left: 45%;
+    text-align: center;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    color: inherit;
+}
+
+.badge>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: -100px;
+    top: 0%;
+}
+
+.sidemenu>.photos{
+    height: 100%;
+    width: 100%;
+}
+
+.photos>img{
+    position: relative;
+    float: left;
+    background-color: tomato;
+    width: 40%;
+    height: 40%;
+    padding:5%;
+    transition: 200ms all ease-in-out;
+}
+
+.photos>img:hover{
+    opacity: .5;
 }
