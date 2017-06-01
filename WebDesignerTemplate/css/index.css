@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: linear-gradient(90deg,tomato 50%,#2ac2cc 50%);;
     font-family: 'Roboto', sans-serif;
     overflow:auto;
     outline: none;
@@ -143,7 +143,7 @@ nav{
 }
 
 .mainBody{
-    background-color: white;
+    background: linear-gradient(90deg,tomato 50%,#2ac2cc 50%);;
     position: absolute;
     top: 120%;
     left: 0px;
@@ -163,8 +163,8 @@ nav{
     height: auto ;/*650px*/
     top: 0px;
     text-align: center;
-    background-color: white;
-        overflow-x: hidden;
+    background: linear-gradient(90deg,tomato 50%,#2ac2cc 50%);
+    overflow-x: hidden;
 }
 
 #seedesigns>ul{
@@ -173,7 +173,7 @@ nav{
     padding-top: 120px;
 }
 #seedesigns>ul>li{
-    padding-left: 30px;
+    padding-left: 8px;
 }
 #seedesigns>ul>li>h1{
     position: relative;
@@ -183,13 +183,10 @@ nav{
 
 
 #seedesigns>ul>li:nth-child(1){
-    color:tomato;
+    color:#2ac2cc;
 }
 #seedesigns>ul>li:nth-child(2){
-    color: #2ac2cc;
-}
-#seedesigns>ul>li:nth-child(3){
-    color:tomato;
+    color: tomato;
 }
 
 #seedesigns>.templates{
@@ -204,15 +201,16 @@ nav{
     width: 250px;
     height: 350px;
     position: relative;
-    background-color: white;
-    border: 1px solid #ccc;
+    background-color: black;
+    opacity: .8;
     float: left;
     margin-left: 100px;
     margin-top: 100px;
+    transition: all 250ms ease-out;
 }
 
 #seedesigns>.templates>.img_template:hover{
-    border: 1px solid #777;
+    opacity: 1;
 }
 
 #seedesigns>.templates>.img_template>.footer{
