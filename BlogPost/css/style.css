@@ -422,4 +422,27 @@ video {
         transition: all 250ms ease-in-out;
         z-index: -1; }
 
+.info {
+  position: fixed;
+  width: 81.7%;
+  left: 250px;
+  color: white;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.3); }
+  .info > h1 {
+    font-size: 15px;
+    float: left;
+    margin-left: 10px; }
+  .info > h2 {
+    color: tomato;
+    font-size: 15px;
+    float: left;
+    margin-left: 10px; }
+  .info > p {
+    font-size: 15px;
+    float: right; }
+    .info > p > a {
+      text-decoration: none;
+      color: tomato; }
+
 /*# sourceMappingURL=style.css.map */

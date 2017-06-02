@@ -520,3 +520,34 @@ video{
         }
     }
 }
+
+
+.info{
+    position: fixed;
+    width: 81.7%;
+
+    left: 250px;
+    color: white;
+    display: inline-block;
+    background-color: rgba(0,0,0,.3);
+    >h1{
+        font-size: 15px;
+        float: left;
+        margin-left: 10px;
+    }
+    >h2{
+        color: tomato;
+        font-size: 15px;
+        float: left;
+        margin-left: 10px;
+    }
+    >p{
+        font-size: 15px;
+        float: right;
+        >a{
+            text-decoration: none;
+            color: tomato;
+        }
+    }
+
+}
