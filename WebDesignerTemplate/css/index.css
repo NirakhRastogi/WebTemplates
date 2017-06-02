@@ -1,5 +1,5 @@
 body{
-    background-color: linear-gradient(90deg,tomato 50%,#2ac2cc 50%);;
+    background: linear-gradient(90deg,tomato 50%,#2ac2cc 50%);
     font-family: 'Roboto', sans-serif;
     overflow:auto;
     outline: none;
