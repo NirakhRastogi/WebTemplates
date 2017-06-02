@@ -6,11 +6,11 @@
 
 **Ph. No:** *8756094448*
 
-![](/BlogPost/images/Website1.png)
-![](/BlogPost/images/Website2.png)
-![](/BlogPost/images/Website3.png)
-![](/BlogPost/images/Website4.png)
-![](/BlogPost/images/Website5.png)
+![](/BlogPost/images/website1.png)
+![](/BlogPost/images/website2.png)
+![](/BlogPost/images/website3.png)
+![](/BlogPost/images/website4.png)
+![](/BlogPost/images/website5.png)
 
 ----------------------------------
 ## To run
