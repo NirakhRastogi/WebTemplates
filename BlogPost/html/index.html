@@ -7,16 +7,86 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-    <div class="entryText">
+    <div class="entryText" id="entryText">
         <h1>TRAVEL AND FOOD</h1>
         <h2><u>PORN</u></h2>
         <h3>BLOG CREATED BY</h3>
         <h1>"ISSABELLA SMITH"</h1>
     </div>
-    <div class="aboutUs">
+    <div class="aboutUs" id="aboutUs">
         <h1>TRAVEL AND FOOD</h1>
         <h2>BLOG CREATED BY</h2>
         <h1>"ISSABELLA SMITH"</h1>
+        <div class="aboutmeParagraph">
+            <p>Hi, My name is Isabella Smith. I am a blogger, traveller and food addict. I love travelling, eating and blogging.
+            The blog contains all my experience, my photos, my videos of variuos places, there food and living.</p>
+        </div>
+    </div>
+    <div class="travelPics" id="travelPics">
+        <h1>TRAVEL PICS</h1>
+        <h2>"ISSABELLA SMITH"</h2>
+        <div class="pictures">
+            <img src="../images/dubai-water.jpg"/>
+            <img src="../images/america.jpg"/>
+            <img src="../images/india.jpg"/>
+            <img src="../images/london.jpg"/>
+        </div>
+        <div class="pics">
+            <button class="btnFill">SEE MORE PICS</button>
+        </div>
+    </div>
+    <div class="myblog" id="myblog">
+        <h1>MY</h1>
+        <h2>EXPERIENCE</h2>
+        <h1>IN</h1>
+        <h1>INDIA</h1>
+        <h2>"ISSABELLA SMITH"</h2>
+        <div class="blogPost">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+    <div class="travelVideos" id="travelVideos">
+        <h1>TRAVEL</h1><h1> VIDEOS</h1>
+        <h2>"ISSABELLA SMITH"</h2>
+        <div class="videos">
+            <img src="../images/dubai-water.jpg"/>
+            <img src="../images/america.jpg"/>
+            <img src="../images/india.jpg"/>
+            <img src="../images/london.jpg"/>
+        </div>
+        <div class="videoButton">
+            <button class="btnFill">SEE MORE VIDEOS</button>
+        </div>
+    </div>
+    <div class="foodPics" id="foodPics">
+        <h1>fOOD PORN</h1>
+        <h2>"ISSABELLA SMITH"</h2>
+        <div class="pictures">
+            <img src="../images/dubai-water.jpg"/>
+            <img src="../images/america.jpg"/>
+            <img src="../images/india.jpg"/>
+            <img src="../images/london.jpg"/>
+        </div>
+        <div class="picButton">
+            <button >MORE FOOD</button>
+        </div>
     </div>
     <div class="leftNavBar">
         <ul class="socialLinks">
@@ -28,12 +98,12 @@
             <button><img src="../images/youtube.png"></button>
         </ul>
         <ul class="Menu">
-            <li class="active"><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT ME</a></li>
-            <li><a href="#">TRAVEL PICS</a></li>
-            <li><a href="#">MY BLOGS</a></li>
-            <li><a href="#">TRAVEL VIDEOS</a></li>
-            <li><a href="#">FOOD PORN</a></li>
+            <li class="active"><a href="#entryText" onclick="autoScroll('entryText')">HOME</a></li>
+            <li><a href="#aboutUs" onclick="autoScroll('aboutUs')">ABOUT ME</a></li>
+            <li><a href="#travelPics" onclick="autoScroll('travelPics')">TRAVEL PICTURES</a></li>
+            <li><a href="#myblog" onclick="autoScroll('myblog')">MY BLOGS</a></li>
+            <li><a href="#travelVideos" onclick="autoScroll('travelVideos')">TRAVEL VIDEOS</a></li>
+            <li><a href="#foodPics" onclick="autoScroll('foodPics')">FOOD PORN</a></li>
         </ul>
     </div>
     <video autoplay loop>
